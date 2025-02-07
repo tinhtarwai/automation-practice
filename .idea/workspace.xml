@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1175c070-f613-450a-9151-453dd84d07d1" name="Changes" comment="first test">
-      <change afterPath="$PROJECT_DIR$/.idea/MMBusTicket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TripSearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/booking_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TripSearch.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,26 +24,50 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2sNaay4rAJeXQgpfAxQnxK5cJvK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for seat_selection.TestSeatSelection.test_select_and_deselect_seat.executor": "Run",
+    "Python tests.Python tests for seat_selection.TestSeatSelection.test_select_less_than_requested_seats.executor": "Run",
+    "Python tests.Python tests for trip_result.TestTripSearch.test_empty_depart_date.executor": "Debug",
+    "Python tests.Python tests for trip_result.TestTripSearch.test_empty_destination.executor": "Run",
+    "Python tests.Python tests for trip_result.TestTripSearch.test_empty_source.executor": "Run",
+    "Python tests.Python tests for trip_result.TestTripSearch.test_invalid_input.executor": "Run",
+    "Python tests.Python tests for trip_result.TestTripSearch.test_not_choosing_nationality.executor": "Run",
+    "Python tests.Python tests for trip_search.TestTripSearch.test_choose_same_location.executor": "Run",
+    "Python tests.Python tests for trip_search.TestTripSearch.test_max_min_seat_count.executor": "Run",
+    "Python tests.Python tests for trip_search.TestTripSearch.test_min_seat_count.executor": "Run",
+    "Python tests.Python tests for trip_search.TestTripSearch.test_not_choosing_nationality.executor": "Run",
+    "Python tests.Python tests in seat_selection.py.executor": "Run",
+    "Python tests.Python tests in trip_result.py.executor": "Run",
+    "Python.BookingFlow.executor": "Run",
     "Python.TripSearch.executor": "Run",
+    "Python.booking_flow.executor": "Run",
+    "Python.webdriver_setup.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="TripSearch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\A_R_T\PycharmProjects\MMBusTicket\Tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for trip_search.TestTripSearch.test_choose_same_location">
+    <configuration name="booking_flow" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="MMBusTicket" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TripSearch.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\A_R_T\PycharmProjects\MMBusTicket\Tests\booking_flow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,9 +89,88 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for trip_result.TestTripSearch.test_empty_depart_date" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MMBusTicket" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests/Unit Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;trip_result.TestTripSearch.test_empty_depart_date&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for trip_search.TestTripSearch.test_choose_same_location" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MMBusTicket" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests/Unit Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;trip_search.TestTripSearch.test_choose_same_location&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for trip_search.TestTripSearch.test_max_min_seat_count" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MMBusTicket" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests/Unit Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;trip_search.TestTripSearch.test_max_min_seat_count&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for trip_search.TestTripSearch.test_min_seat_count" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MMBusTicket" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests/Unit Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;trip_search.TestTripSearch.test_min_seat_count&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for trip_search.TestTripSearch.test_not_choosing_nationality" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MMBusTicket" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests/Unit Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;trip_search.TestTripSearch.test_not_choosing_nationality&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TripSearch" />
+        <item itemvalue="Python tests.Python tests for trip_search.TestTripSearch.test_choose_same_location" />
+        <item itemvalue="Python tests.Python tests for trip_search.TestTripSearch.test_min_seat_count" />
+        <item itemvalue="Python tests.Python tests for trip_search.TestTripSearch.test_max_min_seat_count" />
+        <item itemvalue="Python tests.Python tests for trip_search.TestTripSearch.test_not_choosing_nationality" />
+        <item itemvalue="Python tests.Python tests for trip_result.TestTripSearch.test_empty_depart_date" />
       </list>
     </recent_temporary>
   </component>
@@ -107,5 +206,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first test" />
     <option name="LAST_COMMIT_MESSAGE" value="first test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/Unit Test/trip_search.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/Unit Test/trip_search.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/Unit Test/trip_search.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/Unit Test/trip_search.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
